@@ -8,5 +8,5 @@
 const P1Platform = require('./lib/P1Platform')
 
 module.exports = function (homebridge) {
-  homebridge.registerPlatform('homebridge-p1', 'P1', P1Platform)
+  homebridge.registerPlatform('homebridge-p1-saving', 'P1', P1Platform)
 }
